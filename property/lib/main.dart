@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:property/views/home_page_view.dart';
 import 'package:property/views/investments_screen.dart';
 
 void main() async {
@@ -10,6 +11,6 @@ void main() async {
       useMaterial3: false,
       primarySwatch: Colors.blue
     ),
-    home: InvestmentsScreen(),
+    home: const HomePageView(),
   ),);
 }
